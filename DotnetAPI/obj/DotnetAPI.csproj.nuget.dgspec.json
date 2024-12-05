@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\markk\\OneDrive\\Documents\\GitHub\\DotnetCourse\\DotNetAPI\\DotnetAPI.csproj": {}
+    "C:\\Users\\markk\\OneDrive\\Documents\\GitHub\\DotnetCourse\\DotnetAPI\\DotnetAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\markk\\OneDrive\\Documents\\GitHub\\DotnetCourse\\DotNetAPI\\DotnetAPI.csproj": {
+    "C:\\Users\\markk\\OneDrive\\Documents\\GitHub\\DotnetCourse\\DotnetAPI\\DotnetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\markk\\OneDrive\\Documents\\GitHub\\DotnetCourse\\DotNetAPI\\DotnetAPI.csproj",
+        "projectUniqueName": "C:\\Users\\markk\\OneDrive\\Documents\\GitHub\\DotnetCourse\\DotnetAPI\\DotnetAPI.csproj",
         "projectName": "DotnetAPI",
-        "projectPath": "C:\\Users\\markk\\OneDrive\\Documents\\GitHub\\DotnetCourse\\DotNetAPI\\DotnetAPI.csproj",
+        "projectPath": "C:\\Users\\markk\\OneDrive\\Documents\\GitHub\\DotnetCourse\\DotnetAPI\\DotnetAPI.csproj",
         "packagesPath": "C:\\Users\\markk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\markk\\OneDrive\\Documents\\GitHub\\DotnetCourse\\DotNetAPI\\obj\\",
+        "outputPath": "C:\\Users\\markk\\OneDrive\\Documents\\GitHub\\DotnetCourse\\DotnetAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\markk\\AppData\\Roaming\\NuGet\\NuGet.Config"
