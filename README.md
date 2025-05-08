@@ -1,6 +1,7 @@
 # C# .NET with MS SQL Complete Beginner to Master 2024
-##Overview
-This repository is dedicated on learning the necessary knowledge to build a console application and asp.net application.
+## Overview
+This repository contains the development work for a RESTful API built with ASP.NET Core, designed to manage user and post. This project was created as part of the C# .NET with MS SQL Complete Beginner to Master 2024 at Udemy, where I explored API design, database modeling, and security best practices.
+
 # API Overview
 ## Features
 
