@@ -145,4 +145,3 @@ C:\Users\markk\OneDrive\Documents\GitHub\DotnetCourse\DotNetAPI\obj\Debug\net8.0
 C:\Users\markk\OneDrive\Documents\GitHub\DotnetCourse\DotNetAPI\obj\Debug\net8.0\DotnetAPI.pdb
 C:\Users\markk\OneDrive\Documents\GitHub\DotnetCourse\DotNetAPI\obj\Debug\net8.0\DotnetAPI.genruntimeconfig.cache
 C:\Users\markk\OneDrive\Documents\GitHub\DotnetCourse\DotNetAPI\obj\Debug\net8.0\ref\DotnetAPI.dll
-C:\Users\markk\OneDrive\Documents\GitHub\DotnetCourse\DotnetAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

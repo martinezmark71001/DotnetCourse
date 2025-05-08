@@ -1,0 +1,318 @@
+{
+	"info": {
+		"_postman_id": "5bd658ec-923e-4d58-ac89-fea12fbde73d",
+		"name": "Localhost:5000",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16042367"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/UserComplete/TestConnection",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMDAyIiwibmJmIjoxNzQ1MjQyNDA4LCJleHAiOjE3NDUzMjg4MDgsImlhdCI6MTc0NTI0MjQwOH0.hx58vScoXagO-OLh9VLk9_2SrVXrioUR_uthN-g7AKqiqI6PKIUltUAp8x4FIJwMj7aSzxFm1YMHxmhkjGQl6A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/UserComplete/TestConnection",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"UserComplete",
+						"TestConnection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/Auth/Login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"marktest@gmail.com\",\r\n  \"password\": \"marktest\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/Auth/Login",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Auth",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/Auth/RefreshToken",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMDAyIiwibmJmIjoxNzQ1MjQyMzA0LCJleHAiOjE3NDUzMjg3MDQsImlhdCI6MTc0NTI0MjMwNH0.Kykc04-z3sj3qwKONDLJaY_9A7nENvD5Nf59EbCf0APw8Z2RdlUkIfxPutdOi1H7s03lt-b50mVe5Kbil9cosw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/Auth/RefreshToken",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Auth",
+						"RefreshToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/UserComplete/GetUsers/0/false",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMDAyIiwibmJmIjoxNzQ1MjQyNDA4LCJleHAiOjE3NDUzMjg4MDgsImlhdCI6MTc0NTI0MjQwOH0.hx58vScoXagO-OLh9VLk9_2SrVXrioUR_uthN-g7AKqiqI6PKIUltUAp8x4FIJwMj7aSzxFm1YMHxmhkjGQl6A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/UserComplete/GetUsers/0/false",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"UserComplete",
+						"GetUsers",
+						"0",
+						"false"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/UserComplete/DeleteUser/1003",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMDAyIiwibmJmIjoxNzQ1MjQyNDA4LCJleHAiOjE3NDUzMjg4MDgsImlhdCI6MTc0NTI0MjQwOH0.hx58vScoXagO-OLh9VLk9_2SrVXrioUR_uthN-g7AKqiqI6PKIUltUAp8x4FIJwMj7aSzxFm1YMHxmhkjGQl6A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/UserComplete/DeleteUser/1003",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"UserComplete",
+						"DeleteUser",
+						"1003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/UserComplete/UpsertUser",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMDAyIiwibmJmIjoxNzQ1MjQyNDA4LCJleHAiOjE3NDUzMjg4MDgsImlhdCI6MTc0NTI0MjQwOH0.hx58vScoXagO-OLh9VLk9_2SrVXrioUR_uthN-g7AKqiqI6PKIUltUAp8x4FIJwMj7aSzxFm1YMHxmhkjGQl6A",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Mark\",\r\n  \"lastName\": \"Martinez\",\r\n  \"email\": \"marktest@test.com\",\r\n  \"gender\": \"Male\",\r\n  \"active\": true,\r\n  \"jobTitle\": \"Software Developer\",\r\n  \"department\": \"Computer Science\",\r\n  \"salary\": 200000,\r\n  \"avgSalary\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/UserComplete/UpsertUser",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"UserComplete",
+						"UpsertUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/Post/UpsertPost",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMDAxIiwibmJmIjoxNzQ2NzM1OTAwLCJleHAiOjE3NDY4MjIzMDAsImlhdCI6MTc0NjczNTkwMH0.AzBTKGOeQdcsI9RqbG9NLM4qu8xAIboLHW-0rzjwvqirfX-y1TT43gxBMqLUM_rnvfSjCFyHWWePfZ7i_CxMsw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"postTitle\": \"My post 2025\",\r\n  \"postContent\": \"Hello World\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/Post/UpsertPost",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Post",
+						"UpsertPost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/Post/MyPosts",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMDAxIiwibmJmIjoxNzQ2NzM1OTAwLCJleHAiOjE3NDY4MjIzMDAsImlhdCI6MTc0NjczNTkwMH0.AzBTKGOeQdcsI9RqbG9NLM4qu8xAIboLHW-0rzjwvqirfX-y1TT43gxBMqLUM_rnvfSjCFyHWWePfZ7i_CxMsw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/Post/MyPosts",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Post",
+						"MyPosts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/Post/Posts/0/0/0",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMDAyIiwibmJmIjoxNzQ1MjQyNDA4LCJleHAiOjE3NDUzMjg4MDgsImlhdCI6MTc0NTI0MjQwOH0.hx58vScoXagO-OLh9VLk9_2SrVXrioUR_uthN-g7AKqiqI6PKIUltUAp8x4FIJwMj7aSzxFm1YMHxmhkjGQl6A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/Post/Posts/0/0/0",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Post",
+						"Posts",
+						"0",
+						"0",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/Post/Post/1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMDAyIiwibmJmIjoxNzQ1MjQyNDA4LCJleHAiOjE3NDUzMjg4MDgsImlhdCI6MTc0NTI0MjQwOH0.hx58vScoXagO-OLh9VLk9_2SrVXrioUR_uthN-g7AKqiqI6PKIUltUAp8x4FIJwMj7aSzxFm1YMHxmhkjGQl6A",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:5000/Post/Post/1",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Post",
+						"Post",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
