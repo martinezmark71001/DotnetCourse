@@ -52,15 +52,15 @@ This repository is dedicated on learning the necessary knowledge to build a cons
    + `ProcedurePosts_Upsert.sql`
    +  `ProcedurePosts_Get.sql`
    +  `ProcedurePosts_Delete.sql` 
-4.  Open a command prompt or terminal.
 
 # Running the Program
 ## Prerequisites
 * Dotnet API
 * The folder name `DotnetAPI`.
 ## Steps
-1. Open the folder name `DotnetAPI`.
-2. Run the program using `Dotnet run` or `Dotnet watch run`.
+1. Open a command prompt or terminal.
+2. Open the folder name `DotnetAPI`.
+3. Run the program using `Dotnet run` or `Dotnet watch run`.
 
 # Using Postman to Test the API
 
